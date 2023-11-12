@@ -3,7 +3,6 @@
 #include "etl/bit.h"
 #include "etl/keywords.h"
 
-using namespace Project;
 
 fun CurrentSense::init() -> void {
     i2c.init();
